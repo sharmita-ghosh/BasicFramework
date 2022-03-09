@@ -1,0 +1,9 @@
+# Eclipse metadata files that can be ignored  
+.classpath  
+.editorconfig  
+.factorypath  
+.gitattributes  
+.project  
+.settings/  
+bin/  
+target/
