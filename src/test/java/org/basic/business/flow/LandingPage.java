@@ -72,8 +72,8 @@ public class LandingPage extends Base {
 	@DataProvider
 	public Object[][] getAddUserData() {
 		Object[][] data = new Object[1][2];
-		data[0][0] = "firstname12";
-		data[0][1] = "lastname12";
+		data[0][0] = "firstname20";
+		data[0][1] = "lastname20";
 		;
 		return data;
 	}
@@ -117,10 +117,10 @@ public class LandingPage extends Base {
 	@DataProvider
 	public Object[][] getEditUserData() {
 		Object[][] data = new Object[1][4];
-		data[0][0] = "firstname12";
-		data[0][1] = "lastname12";
-		data[0][2] = "firstname21";
-		data[0][3] = "lastname21";
+		data[0][0] = "firstname20";
+		data[0][1] = "lastname20";
+		data[0][2] = "firstname22";
+		data[0][3] = "lastname22";
 		return data;
 	}
 	
@@ -161,8 +161,8 @@ public class LandingPage extends Base {
 	@DataProvider
 	public Object[][] getValidateUser() {
 		Object [][] data = new Object [1][7];
-		data[0][0]="firstname21";
-		data[0][1]="lastname21";
+		data[0][0]="firstname22";
+		data[0][1]="lastname22";
 		data[0][2]="2";
 		data[0][3]="52000.00";
 		data[0][4]="2000.00";
@@ -206,8 +206,8 @@ public class LandingPage extends Base {
 	@DataProvider
 	public Object[][] DeleteUser() {
 		Object [][] data = new Object [1][2];
-		data[0][0]="firstname21";
-		data[0][1]="lastname21";
+		data[0][0]="firstname22";
+		data[0][1]="lastname22";
 		
 		return data;
 	}
