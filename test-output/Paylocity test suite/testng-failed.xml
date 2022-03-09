@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Paylocity Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.basic.business.flow.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.basic.business.flow.LandingPage">
+        <methods>
+          <include name="closeWindow"/>
+          <include name="driverInitialize"/>
+          <include name="basePage"/>
+        </methods>
+      </class> <!-- org.basic.business.flow.LandingPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Paylocity Test Suite] -->

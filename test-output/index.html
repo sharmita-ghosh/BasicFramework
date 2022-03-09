@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Paylocity_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Paylocity Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Sharmita\eclipse-workspace\BasicFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Paylocity_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Paylocity_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Paylocity_Test_Suite" class="hide-methods failed suite-Paylocity_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Paylocity_Test_Suite -->
+                      <a href="#" panel-name="suite-Paylocity_Test_Suite" class="show-methods failed suite-Paylocity_Test_Suite"> (show)</a> <!-- show-methods failed suite-Paylocity_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Paylocity_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Paylocity_Test_Suite" title="org.basic.business.flow.LandingPage" class="method navigator-link" hash-for-method="basePage">basePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Paylocity_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Paylocity_Test_Suite" class="hide-methods passed suite-Paylocity_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Paylocity_Test_Suite -->
+                      <a href="#" panel-name="suite-Paylocity_Test_Suite" class="show-methods passed suite-Paylocity_Test_Suite"> (show)</a> <!-- show-methods passed suite-Paylocity_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Paylocity_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Paylocity_Test_Suite" title="org.basic.business.flow.LandingPage" class="method navigator-link" hash-for-method="userdetailsAdd(firstname12, lastname12)">userdetailsAdd(firstname12, lastname12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Paylocity_Test_Suite" title="org.basic.business.flow.LandingPage" class="method navigator-link" hash-for-method="userdetailsEdit(firstname12, lastname12, firstname21, lastname21)">userdetailsEdit(firstname12, lastname12, firstname21, lastname21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Paylocity_Test_Suite" title="org.basic.business.flow.LandingPage" class="method navigator-link" hash-for-method="userdetailsValidation(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08)">userdetailsValidation(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Paylocity_Test_Suite" title="org.basic.business.flow.LandingPage" class="method navigator-link" hash-for-method="userdetailsWipeOut(firstname21, lastname21)">userdetailsWipeOut(firstname21, lastname21)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Paylocity_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Paylocity_Test_Suite" class="panel Paylocity_Test_Suite">
+          <div class="suite-Paylocity_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.basic.business.flow.LandingPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="basePage">
+                  </a> <!-- basePage -->
+                  <span class="method-name">basePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Employees - Paylocity Benefit Dashboard] but found [Employees - Paylocity Benefits Dashboard]
+	at org.basic.business.flow.LandingPage.basePage(LandingPage.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Paylocity_Test_Suite-class-failed -->
+          <div class="suite-Paylocity_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.basic.business.flow.LandingPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userdetailsAdd(firstname12, lastname12)">
+                  </a> <!-- userdetailsAdd(firstname12, lastname12) -->
+                  <span class="method-name">userdetailsAdd</span>
+                  <span class="parameters">(firstname12, lastname12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userdetailsEdit(firstname12, lastname12, firstname21, lastname21)">
+                  </a> <!-- userdetailsEdit(firstname12, lastname12, firstname21, lastname21) -->
+                  <span class="method-name">userdetailsEdit</span>
+                  <span class="parameters">(firstname12, lastname12, firstname21, lastname21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userdetailsValidation(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08)">
+                  </a> <!-- userdetailsValidation(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08) -->
+                  <span class="method-name">userdetailsValidation</span>
+                  <span class="parameters">(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userdetailsWipeOut(firstname21, lastname21)">
+                  </a> <!-- userdetailsWipeOut(firstname21, lastname21) -->
+                  <span class="method-name">userdetailsWipeOut</span>
+                  <span class="parameters">(firstname21, lastname21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Paylocity_Test_Suite-class-passed -->
+        </div> <!-- panel Paylocity_Test_Suite -->
+        <div panel-name="test-xml-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sharmita\eclipse-workspace\BasicFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Paylocity Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.basic.business.flow.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.basic.business.flow.LandingPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;basePage&quot;/&gt;
+          &lt;include name=&quot;userdetailsAdd&quot;/&gt;
+          &lt;include name=&quot;userdetailsEdit&quot;/&gt;
+          &lt;include name=&quot;userdetailsValidation&quot;/&gt;
+          &lt;include name=&quot;userdetailsWipeOut&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.basic.business.flow.LandingPage --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Paylocity Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Paylocity Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Paylocity Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Paylocity Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Paylocity_Test_Suite');
+function tableData_Paylocity_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'basePage')
+data.setCell(0, 2, 'org.basic.business.flow.LandingPage')
+data.setCell(0, 3, 1587);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userdetailsEdit')
+data.setCell(1, 2, 'org.basic.business.flow.LandingPage')
+data.setCell(1, 3, 739);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userdetailsAdd')
+data.setCell(2, 2, 'org.basic.business.flow.LandingPage')
+data.setCell(2, 3, 458);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'userdetailsValidation')
+data.setCell(3, 2, 'org.basic.business.flow.LandingPage')
+data.setCell(3, 3, 205);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userdetailsWipeOut')
+data.setCell(4, 2, 'org.basic.business.flow.LandingPage')
+data.setCell(4, 3, 135);
+window.suiteTableData['Paylocity_Test_Suite']= { tableData: data, tableDiv: 'times-div-Paylocity_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Paylocity_Test_Suite">
+              </div> <!-- times-div-Paylocity_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Paylocity Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Paylocity_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.basic.business.flow.LandingPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">driverInitialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">basePage</span>
+                <span class="method-start">2312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userdetailsAdd(firstname12, lastname12)</span>
+                <span class="method-start">4173 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userdetailsEdit(firstname12, lastname12, firstname21, lastname21)</span>
+                <span class="method-start">4636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userdetailsValidation(firstname21, lastname21, 2, 52000.00, 2000.00, 76.92, 1923.08)</span>
+                <span class="method-start">5376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userdetailsWipeOut(firstname21, lastname21)</span>
+                <span class="method-start">5584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeWindow</span>
+                <span class="method-start">5721 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
